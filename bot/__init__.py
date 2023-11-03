@@ -55,11 +55,7 @@ LOGS.info(
     """
 )
 
-if os.cpu_count() < 4:
-    LOGS.warning(
-        "These Bot Atleast Need 4vcpu and 32GB Ram For Proper Functiong...\nExiting..."
-    )
-    exit()
+
 
 
 def ask_(db: Redis):
